@@ -11,7 +11,8 @@ int main()
         
          time_t start,end;
 		 float a[SIZE][SIZE], x[SIZE], ratio;
-		 int i,j,k,n;
+		 int i,j,k;
+         long long n;
 
          //Give to three decimal points
          cout<< setprecision(3)<< fixed;
